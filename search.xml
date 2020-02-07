@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>markdown语法</title>
+    <url>/2020/02/07/markdown/</url>
+    <content><![CDATA[<h1 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h1><p>markdown段落没有特殊的格式，直接编写文职就好段落的换行是使用两个以上空格加上回车</p>
+<h1 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h1><p>两个“<em>”<br>*斜体字</em><br>两个“-”<br>“-斜体字-”<br>两个“<em>”<br>“*</em>粗体<strong>”<br>两个“<em>_”<br>_粗体字</em><br>三个“*</strong>”<br><strong><em>粗斜体</em></strong><br>三个“<em>“粗斜体<br><strong>_粗斜体文本</strong></em></p>
+<h1 id="代码区"><a href="#代码区" class="headerlink" title="代码区"></a>代码区</h1><p>代码区使用4个空格或者一个制表符（tab键）<br>也可以用```包裹一段代码，并指定一种语言   </p>
+<pre><code>public void static main(String[] args){}
+</code></pre><h1 id="makdown链接"><a href="#makdown链接" class="headerlink" title="makdown链接"></a>makdown链接</h1><p>链接使用方法如下<br>[链接名称](链接地址）<br>或者<br>&lt;链接地址&gt;</p>
+<h1 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h1><p>开头一个感叹号！<br>接着一个方括号，里面放上图片的替代文字<br>接着一个普通括号，里面放上图片的网址，最后还可以用引号包住并加上选择性的’title’属性的文字</p>
+<h1 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h1><p>在“#”后空格，所有语法注意空格键，否则失效</p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>think</title>
+    <url>/2020/02/07/2-think-2020-2-7/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>感悟</category>
+      </categories>
+      <tags>
+        <tag>价值观</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>houduan</title>
+    <url>/2020/02/06/3-houduan/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>JAVA</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/02/06/hello-world/</url>
+    <content><![CDATA[<h1 id="Why-Blog"><a href="#Why-Blog" class="headerlink" title="Why Blog"></a>Why Blog</h1><h2 id="对博客的理解"><a href="#对博客的理解" class="headerlink" title="对博客的理解"></a>对博客的理解</h2><p>喜欢写Blog的人，会经历三个阶段。</p>
+<blockquote>
+<p>第一阶段，刚接触Blog，觉得很新鲜，试着选择一个免费空间来写。</p>
+</blockquote>
+<blockquote>
+<p>第二阶段，发现免费空间限制太多，就自己购买域名和空间，搭建独立博客。</p>
+</blockquote>
+<blockquote>
+<p>第三阶段，觉得独立博客的管理太麻烦，最好在保留控制权的前提下，让别人来管，自己只负责写文章。</p>
+</blockquote>
+<p>我们每个人的在网络上产生的数据越来越多，这些信息是我们在互联网上存在过的痕迹，值得我们认真对待。但是它们被分散分布在各个网站上。很多时候我们很难将它们聚合在一起，而且各个网站的信息排布方式也没有办法自由控制，所以我们需要一个可以由自己主宰的空间——博客。</p>
+<p>通过博客，我们可以记录自己的生活和成长的轨迹。它不像 Twitter 那样碎片化，也不像 Facebook 那样关系化，它是私人的空间。</p>
+<p>到目前为止已经写了<code class="article_number"></code>篇文章， 共<code class="site_word_count"></code>字。</p>
+]]></content>
+  </entry>
+</search>
