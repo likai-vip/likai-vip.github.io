@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>java的map集合</title>
+    <url>/2020/02/08/java-map-study/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>markdown语法</title>
     <url>/2020/02/07/markdown/</url>
     <content><![CDATA[<h1 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h1><p>markdown段落没有特殊的格式，直接编写文职就好段落的换行是使用两个以上空格加上回车</p>
@@ -12,29 +23,7 @@
 <h1 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h1><p>在“#”后空格，所有语法注意空格键，否则失效</p>
 ]]></content>
       <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>think</title>
-    <url>/2020/02/07/2-think-2020-2-7/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>感悟</category>
-      </categories>
-      <tags>
-        <tag>价值观</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>houduan</title>
-    <url>/2020/02/06/3-houduan/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>JAVA</category>
+        <category>blog使用</category>
       </categories>
   </entry>
   <entry>
