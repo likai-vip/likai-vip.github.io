@@ -31,23 +31,7 @@
     <content><![CDATA[<h1 id="list"><a href="#list" class="headerlink" title="list"></a>list</h1><p>list在util下面  </p>
 <p>ArrayList在uill下面</p>
 <p>LinkedList是一个双向链表结构。方便元素添加，删除的集合</p>
-<pre><code class="java">public class LinkedListDemo {
-    public static void main(String[] args) {
-        LinkedList&lt;String&gt; link=new LinkedList&lt;String&gt;();
-        link.addFirst(&quot;abc1&quot;);
-        link.addFirst(&quot;abc2&quot;);
-        link.addFirst(&quot;abc3&quot;);
-        System.out.println(link);
-        //打印元素
-        System.out.println(link.getFirst());
-        System.out.println(link.getLast());
-        System.out.println(link.removeFirst());
-        //删除元素
-        System.out.println(link);
-    }
-
-}</code></pre>
-]]></content>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">java</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">LinkedListDemo</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		LinkedList&lt;String&gt; link=<span class="keyword">new</span> LinkedList&lt;String&gt;();</span><br><span class="line">		link.addFirst(<span class="string">"abc1"</span>);</span><br><span class="line">		link.addFirst(<span class="string">"abc2"</span>);</span><br><span class="line">		link.addFirst(<span class="string">"abc3"</span>);</span><br><span class="line">		System.out.println(link);</span><br><span class="line">		<span class="comment">//打印元素</span></span><br><span class="line">		System.out.println(link.getFirst());</span><br><span class="line">		System.out.println(link.getLast());</span><br><span class="line">		System.out.println(link.removeFirst());</span><br><span class="line">		<span class="comment">//删除元素</span></span><br><span class="line">		System.out.println(link);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>]]></content>
       <categories>
         <category>java基础</category>
       </categories>
@@ -61,8 +45,8 @@
     <content><![CDATA[<h1 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h1><p>markdown段落没有特殊的格式，直接编写文职就好段落的换行是使用两个以上空格加上回车</p>
 <h1 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h1><p>两个“<em>”<br>*斜体字</em><br>两个“-”<br>“-斜体字-”<br>两个“<em>”<br>“*</em>粗体<strong>”<br>两个“<em>_”<br>_粗体字</em><br>三个“*</strong>”<br><strong><em>粗斜体</em></strong><br>三个“<em>“粗斜体<br><strong>_粗斜体文本</strong></em></p>
 <h1 id="代码区"><a href="#代码区" class="headerlink" title="代码区"></a>代码区</h1><p>代码区使用4个空格或者一个制表符（tab键）<br>也可以用```包裹一段代码，并指定一种语言   </p>
-<pre><code>public void static main(String[] args){}
-</code></pre><h1 id="makdown链接"><a href="#makdown链接" class="headerlink" title="makdown链接"></a>makdown链接</h1><p>链接使用方法如下<br>[链接名称](链接地址）<br>或者<br>&lt;链接地址&gt;</p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public void static main(String[] args)&#123;&#125;</span><br></pre></td></tr></table></figure></div>
+<h1 id="makdown链接"><a href="#makdown链接" class="headerlink" title="makdown链接"></a>makdown链接</h1><p>链接使用方法如下<br>[链接名称](链接地址）<br>或者<br>&lt;链接地址&gt;</p>
 <h1 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h1><p>开头一个感叹号！<br>接着一个方括号，里面放上图片的替代文字<br>接着一个普通括号，里面放上图片的网址，最后还可以用引号包住并加上选择性的’title’属性的文字</p>
 <h1 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h1><p>在“#”后空格，所有语法注意空格键，否则失效</p>
 ]]></content>
