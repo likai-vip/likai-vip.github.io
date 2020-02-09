@@ -3,7 +3,7 @@
   <entry>
     <title>eclipse使用</title>
     <url>/2020/02/09/eclips%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[<p>#常用快捷键<br>alt + /:自动补全代码或者提示代码<br>Ctrl + /:自动注释当前行或者选择的多行<br>alt+shift+j:自动生成开头的做足额（在prefercense&gt;java&gt;code templates设置)<br>Ctrl+shift+/或者Ctrl+shift+\：块注释或者取消注释<br>Ctrl+shift+o:代码导包的快捷键<br>Ctrl+o:查看某个类中的方法<br>Ctrl+shift+F:格式化代码，快捷键能够将代码按照java驼峰命名规则显示</p>
+    <content><![CDATA[<h1 id="常用快捷键"><a href="#常用快捷键" class="headerlink" title="常用快捷键"></a>常用快捷键</h1><p>alt + /:自动补全代码或者提示代码<br>Ctrl + /:自动注释当前行或者选择的多行<br>alt+shift+j:自动生成开头的做足额（在prefercense&gt;java&gt;code templates设置)<br>Ctrl+shift+/或者Ctrl+shift+\：块注释或者取消注释<br>Ctrl+shift+o:代码导包的快捷键<br>Ctrl+o:查看某个类中的方法<br>Ctrl+shift+F:格式化代码，快捷键能够将代码按照java驼峰命名规则显示</p>
 ]]></content>
       <categories>
         <category>java基础</category>
