@@ -1,9 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>数据库MySql</title>
+    <url>/2020/02/14/%E6%95%B0%E6%8D%AE%E5%BA%93MySql/</url>
+    <content><![CDATA[<h1 id="添加新用户"><a href="#添加新用户" class="headerlink" title="添加新用户"></a>添加新用户</h1><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">mysql&gt;create user &#39;test&#39;@&#39;localhost&#39; identified by &#39;123456&#39;;</span><br></pre></td></tr></table></figure></div>
+<p>允许外网ip访问  </p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">mysql&gt;create user &#39;test&#39;@&#39;%&#39; identified by &#39;123456&#39;;</span><br></pre></td></tr></table></figure></div>
+<p>刷新授权  </p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">mysql&gt;flush privileges;</span><br></pre></td></tr></table></figure></div>
+]]></content>
+      <categories>
+        <category>java基础</category>
+      </categories>
+      <tags>
+        <tag>MySql</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>java-IO</title>
     <url>/2020/02/12/java-IO/</url>
-    <content><![CDATA[<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">java</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">FosWrite</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> <span class="keyword">throws</span> IOException </span>&#123;</span><br><span class="line">        FileOutputStream fos = <span class="keyword">new</span> FileOutputStream(<span class="string">"fos.txt"</span>);</span><br><span class="line">        fos.write(<span class="number">97</span>);</span><br><span class="line">        fos.write(<span class="number">98</span>);</span><br><span class="line">        fos.write(<span class="number">99</span>);</span><br><span class="line">        fos.close();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//public FileOutStream(File file):创建文件输出流以写入由指定的路径的文件</span></span><br><span class="line"><span class="comment">//public FileOutStream(String name):创建文件输出流以指定的名称写入文件</span></span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">```java</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">FosWrite</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> <span class="keyword">throws</span> IOException </span>&#123;</span><br><span class="line">        FileOutputStream fos = <span class="keyword">new</span> FileOutputStream(<span class="string">"fos.txt"</span>);</span><br><span class="line">        fos.write(<span class="number">97</span>);</span><br><span class="line">        fos.write(<span class="number">98</span>);</span><br><span class="line">        fos.write(<span class="number">99</span>);</span><br><span class="line">        fos.close();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//public FileOutStream(File file):创建文件输出流以写入由指定的路径的文件</span></span><br><span class="line"><span class="comment">//public FileOutStream(String name):创建文件输出流以指定的名称写入文件</span></span><br></pre></td></tr></table></figure></div>
+    <content><![CDATA[<pre><code class="java"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">FosWrite</span> </span>{
+    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> <span class="keyword">throws</span> IOException </span>{
+        FileOutputStream fos = <span class="keyword">new</span> FileOutputStream(<span class="string">"fos.txt"</span>);
+        fos.write(<span class="number">97</span>);
+        fos.write(<span class="number">98</span>);
+        fos.write(<span class="number">99</span>);
+        fos.close();
+    }
+}
+<span class="comment">//public FileOutStream(File file):创建文件输出流以写入由指定的路径的文件</span>
+<span class="comment">//public FileOutStream(String name):创建文件输出流以指定的名称写入文件</span>
+
+
+
+<span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">FosWrite</span> </span>{
+    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> <span class="keyword">throws</span> IOException </span>{
+        FileOutputStream fos = <span class="keyword">new</span> FileOutputStream(<span class="string">"fos.txt"</span>);
+        fos.write(<span class="number">97</span>);
+        fos.write(<span class="number">98</span>);
+        fos.write(<span class="number">99</span>);
+        fos.close();
+    }
+}
+<span class="comment">//public FileOutStream(File file):创建文件输出流以写入由指定的路径的文件</span>
+<span class="comment">//public FileOutStream(String name):创建文件输出流以指定的名称写入文件</span></code></pre>
 ]]></content>
       <categories>
         <category>java基础</category>
